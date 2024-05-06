@@ -4,18 +4,19 @@ body {
   padding: 0;
 }
 
-
+/* barra de menu */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
 
 header {
-  background-color: #333;
+  background-color: #2f4933d7;
   padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  box-shadow: 0 0 35px 8px #fffd;
+  text-align: center;
+  border:#23703697 solid 1px;
 }
 
 header ul li {
@@ -23,27 +24,34 @@ header ul li {
   margin: 0 10px;
 }
 
+.nav-menu {
+  font-family: 'Arial Black', sans-serif; 
+  font-size: 24px; 
+  color: #ffffff; 
+  background-color: #1c291e; 
+  padding: 10px 20px; 
+  border-radius: 10px; 
+}
+
 .nav-link {
-  color: #ffffff;
+  color: #ffffff; 
   text-decoration: none;
-  font-size: 20px;
-  transition: color 0.7s;
+
 }
 
 .nav-link:hover {
-  color: #2fee5fbb;
+  color: #2c9145bb;
 }
 
 .navbar {
   text-align: center;
   padding: 10px 0;
-  
 }
 
 .carousel{
   height: 100vh;
+  margin-top: 85px;
 }
-
 
 .texto-encima {
   position: absolute;
