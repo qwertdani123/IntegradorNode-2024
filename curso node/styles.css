@@ -96,59 +96,54 @@ text-encima p {
   background-color: #000000bb;
 }
 
-.frace{
-  margin: 30px;
-  padding: 20px;
-  background-color: #2c9145bb;
-  color: #fff;
-  text-align: center;
-  margin: 50px auto;
-  width: 80%;
- 
-}
 
+/**********************************************************************************/
 .contenedor-tajeta{
+  display: flex;
   width: 80%;
   margin-inline-start: 10%;
   margin-inline-end: 20%; 
   padding: 20px;
   text-align: center; 
-  box-sizing: border-box;
+
 }
 
 .Con-t{
   width: 100%;
-  padding: 30px;
+  padding: 50px;
   
 }
 
 .col-tajeta{
-  height: 400px;
-  width: 250px;
-  box-sizing: border-box;
+  height: 200px;
   color: #333;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 20px 0 #0009;
-  width: 100px;
   text-decoration: none;
-  display: inline-table;
+  display: inline-table;;
   margin: 10px;
 }
 
+
+
 .card{
- 
+  display: flex;
   border-radius: 15px;
   border: none;
+  background-color: #f9f9f9;
 
 }
 
 .card:hover{
   cursor: pointer;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
-  transition: background 0.3s ease, transform 0.3s ease; /* Agregar transición para el efecto de rotación y escala */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+  transition: background 0.3s ease, transform 0.3s ease; 
   color: #f0f0f0;
-  transform: scale(1.05) rotate(3deg); /* Escalar ligeramente y rotar en hover */
+  /* transform: scale(0.9) rotate(3.5deg); /* Rotacion hacia la derecha */
+   
+  transform: translateY(-20px); /* Movimiento vertical*/
+  
 }
 
 
@@ -162,7 +157,7 @@ text-encima p {
   border-radius: inherit;
   box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.1); 
   opacity: 0;
-  transition: opacity 0.3s ease; 
+  transition: opacity 0.5s ease; 
 }
 
 .card:hover::after {
@@ -175,25 +170,59 @@ text-encima p {
   padding: 15px;
 }
 
+.btn-color{
+  height: 50px;
+  width: 180px;
+  margin-top: 10px;
+  background-color: #105c21;
+  border-style: none;
+  transition: 0.4s background-color;
+}
 
-.btn-tajetas{
-  width: 100px;
-  background-color: #317442a1;
-  color: #ffffff;
+.btn-color:hover{
+  background-color: #1b9936;
+}
+
+
+
+/**********************************************************************************/
+/*Modal*/
+/* Estilos para el modal */
+.modal-content {
   border-radius: 15px;
-  margin: auto;
-  text-align: center;
-  padding: 13px;
-  text-align: center;
-  text-decoration: none;
-  transition: color 0.7s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
-.btn-tajetas:hover{
-  background-color: #000e;
-  color: #2fee5fbb;
-  
+.modal-header {
+  background-color: #0a8829e1; 
+  color: #fff; 
+  border-bottom: none; 
 }
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  padding: 20px; 
+}
+
+.modal-footer {
+  border-top: none; 
+}
+
+.btn-secondary {
+  background-color: #6c757d; 
+  color: #fff; 
+}
+
+.btn-secondary:hover {
+  background-color: #0091ff; 
+
+}
+
+
+/***********************************************************************************/
 
 .somos{
   background: center / cover fixed;
