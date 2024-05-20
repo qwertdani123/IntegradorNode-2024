@@ -226,7 +226,7 @@ text-encima p {
 .somos {
   background: center / cover fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("./img/foto8.jpg");
-  height: 60vh; /* Reducir la altura */
+  height: 50vh; /* Reducir la altura */
   display: flex;
   align-items: center;
 }
@@ -277,6 +277,9 @@ text-encima p {
   box-shadow: 0 0 15px 3px #fffd;
 }
 
+/***********************************************************************************/
+/* Footer */
+
 
 footer {
   background-color: #0b110cd7;
@@ -285,6 +288,44 @@ footer {
   color: #ffffff;
 }
 
-footer .footer__text{
-  margin-top: 45px;
+.iconos {
+  font-size: 24px;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+
+footer i {
+  margin: 0 10px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+footer p {
+  margin: 3px 0;
+  padding: 0;
+  margin-inline-start: 11px;
+}
+
+footer a:hover {
+  color: #2c9145bb;
 }
