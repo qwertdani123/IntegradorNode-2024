@@ -223,37 +223,43 @@ text-encima p {
 
 
 /***********************************************************************************/
-
-.somos{
+.somos {
   background: center / cover fixed;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url("./img/foto8.jpg");
-  height: 100vh;
-  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("./img/foto8.jpg");
+  height: 60vh; /* Reducir la altura */
+  display: flex;
+  align-items: center;
 }
 
-.somos .container__title{
+.somos .container {
+  text-align: center;
+  padding: 15px;
+  max-width: 1200px; /* Ampliar el ancho máximo */
+  margin: auto;
+}
+
+.somos .container__title {
   color: #f0f0f0;
-  font-size: 3.5rem;
+  font-size: 2.5rem; /* Reducir el tamaño del texto */
   text-align: center;
   padding: 15px;
 }
 
-.container__text{
-  display: flex;
-  margin-top: 5%;
+.container__text {
+  margin-top: 2%;
   padding: 0 15px;
   text-align: justify;
   color: #fff;
+  font-size: 1rem; /* Reducir el tamaño del texto */
 }
 
-.Contacto{
+.Contacto {
   background: center / cover fixed;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url("./img/Fondo.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("./img/Fondo.jpg");
   padding: 70px;
 }
 
-
-.Contacto h2{
+.Contacto h2 {
   text-align: center;
   color: #f0f0f0;
 }
@@ -263,7 +269,7 @@ text-encima p {
   color: #f0f0f0;
 }
 
-.contacto__form{
+.contacto__form {
   max-width: 800px;
   margin: auto;
   padding: 18px;
